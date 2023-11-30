@@ -28,7 +28,7 @@ def handler(update):
     response = 'This is so cool sticker!'
     bot.send_text(update['message']['chat']['id'], response)
 ```
-Having configured the handlers, we call the `run` method on the bot. \
+Having configured the handlers, we call the `run` method on the `bot`. \
 Eureka! The bot is running!
 ```python
 bot.run()
