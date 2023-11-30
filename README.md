@@ -11,7 +11,7 @@ token = '***YOUR_TOKEN***'
 bot = TelegramBot(token)
 ```
 Then, using decorators, we create handlers for different types of messages.
-> **Note:** There can be several handlers; they will simply be called sequentially.
+> **Note:** Note. There can be several handlers for one data type; they will simply be called sequentially.
 ```python
 @bot.bot_handler('text')
 def handler(update):
